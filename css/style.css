@@ -1,3 +1,21 @@
+
+/* CSS NAVBAR */
+.logo{
+    width: 100px;
+}
+/* CSS BANNER */
+.medida{
+    height: 22rem;
+}
+/* CSS CONTENEDOR CARD */
+.seccion-card{
+    width: 100%;
+    min-height: 500px;
+    padding: 2rem;
+    background-color: black;
+}
+
+
 .btn-card{
     background-color: black;
     color: white;
@@ -6,8 +24,15 @@
     background-color: gray;
 }
 .card{
-    width: 10rem;;
+    width: 10rem;
 }
-.color-nav{
-    background-color:lavender
+/* CSS FOOTER */
+.footer{
+    padding: 26px;
+    background-color:rgba(0, 0, 0, 0.828);
+}
+.list-footer{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
 }
