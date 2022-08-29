@@ -13,7 +13,6 @@ h1{
     border: black 2px solid;
     padding: 15px;
     background-color: rgb(39, 36, 36); 
-    text-align: center;
     font-size: 42px;
 }
 h1:hover{
@@ -22,6 +21,9 @@ h1:hover{
     transition: .3s;
     transform: skew(-45deg)
 }
+main{
+    background-color: black;
+}
 /* CSS FOOTER*/
 .footer{
     padding: 26px;
@@ -29,6 +31,7 @@ h1:hover{
 }
 .list-footer{
     display: flex;
+    flex-wrap: wrap;
     list-style: none;
     justify-content: space-around;
 }
@@ -51,7 +54,28 @@ h1:hover{
     width: 10rem;
 }
 /* CSS CONTACTO */
-.body-formulario{
-    display:flex;
-    flex-direction:column;
+
+.contacto .contenedor-formularios {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contacto .contenedor-formularios form{
+    width: 85vw;
+    max-width: 450px;
+    margin: auto;
+    background: rgba(189, 189, 189, 0.5);
+    padding: 40px 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 7px;
+}
+.contacto .contenedor-formularios .btn{
+    width: 100%;
+    color:black;
+    background-color:white;
+    border: black solid 2px;
+}
+
 }

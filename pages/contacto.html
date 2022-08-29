@@ -88,14 +88,26 @@
   <!-- MAIN CONTACTO FORMULARIO -->
   <main class="contacto">
     <h1 class="text-center">CONTACTO</h1>
-    <div class="body-formulario">
+    <div class="contenedor-formularios">
       <form method="GET" action="#">
-        <h2>Contactanos</h2>
-        <input type="text" name="Nombre y apellido" placeholder="Nombre y apellido">
-        <input type="text" name="correo" placeholder="Email">
-        <input type="text" name="telefono" placeholder="1161282400">
-        <textarea name="mensaje" placeholder="Escriba su consulta" id="" cols="30" rows="10"></textarea>
-        <input type="submit" value="Enviar" name="" id="boton">
+        <div class="form-floating mb-3">
+          <input type="text" class="form-control" id="floatingInput" placeholder="Nombre y apellido">
+          <label for="floatingInput">Nombre y apellido</label>
+        </div>
+        <div class="form-floating mb-3">
+          <input type="email" class="form-control" id="floatingPassword" placeholder="correo">
+          <label for="floatingPassword">Correo</label>
+        </div>
+        <div class="form-floating mb-3">
+          <input type="text" class="form-control" id="floatingInput" placeholder="Numero de telefono">
+          <label for="floatingInput">Numero de telefono</label>
+        </div>
+        <div class="form-floating text-area mb-3">
+          <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"
+            style="height: 100px"></textarea>
+          <label for="floatingTextarea2">Escriba su consulta</label>
+        </div>
+        <input class="btn btn-primary" type="submit" value="Enviar">
       </form>
     </div>
   </main>
