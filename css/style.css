@@ -1,6 +1,6 @@
 /* CSS GENERALES PAGES */
 /* CSS NAVBAR */
-header .logo-banner{
+header .navbar .container-fluid .navbar-brand .logo-banner{
     width: 100px;
 }
 /* CSS BANNER */
@@ -19,7 +19,7 @@ h1:hover{
     color: rgb(224, 21, 21);
     text-decoration:underline;
     transition: .3s;
-    transform: skew(-45deg)
+    transform: skew(-45deg);
 }
 main{
     background-color: black;
