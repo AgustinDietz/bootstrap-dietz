@@ -1,4 +1,4 @@
-
+/* CSS GENERALES PAGES */
 /* CSS NAVBAR */
 .logo{
     width: 100px;
@@ -7,15 +7,39 @@
 .medida{
     height: 22rem;
 }
-/* CSS CONTENEDOR CARD */
+/* CSS H1 Titulos ANIMADOS */
+h1{
+    color: white;
+    border: black 2px solid;
+    padding: 15px;
+    background-color: rgb(39, 36, 36); 
+    text-align: center;
+    font-size: 42px;
+}
+h1:hover{
+    color: rgb(224, 21, 21);
+    text-decoration:underline;
+    transition: .3s;
+    transform: skew(-45deg)
+}
+/* CSS FOOTER*/
+.footer{
+    padding: 26px;
+    background-color:rgba(0, 0, 0, 0.828);
+}
+.list-footer{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+}
+/* CSS INDEX CONTENEDOR CARD */
 .seccion-card{
     width: 100%;
     min-height: 500px;
     padding: 2rem;
     background-color: black;
 }
-
-
+/* CSS PRODUCTOS */
 .btn-card{
     background-color: black;
     color: white;
@@ -26,13 +50,8 @@
 .card{
     width: 10rem;
 }
-/* CSS FOOTER */
-.footer{
-    padding: 26px;
-    background-color:rgba(0, 0, 0, 0.828);
-}
-.list-footer{
-    display: flex;
-    list-style: none;
-    justify-content: space-around;
+/* CSS CONTACTO */
+.body-formulario{
+    display:flex;
+    flex-direction:column;
 }
